@@ -1,0 +1,49 @@
+*{
+    font-family:'Comic Sans MS','sans-serif';
+}
+header, main{
+    width: 100%;
+    text-align: center;
+}
+header,aside{
+    background-color: paleturquoise;
+    border-radius: 20px;
+}
+header{
+    height: 100px;
+    padding: 2%;
+}
+aside{
+    width: 25%;
+    height: 700px;
+    line-height: 2;
+}
+footer{
+    padding-top: 10px;
+}
+#obrazy{
+    border: 1px dashed dimgray;
+    margin: 10px 50px;
+    height: 400px;
+    overflow: auto;
+}
+.minitury{
+    height: 200px;
+    padding: 10px;
+    opacity: 0.8;
+    transition: opacity 1s ease;
+}
+.minitury:hover{
+    opacity: 1;
+}
+#lewy{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: 5%;
+}
+#glowny{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
